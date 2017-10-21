@@ -1,0 +1,199 @@
+#columna1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8em;
+}
+
+#columna2, #columna3, #columna4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.0em;
+}
+
+#contenido {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#columna1 {
+  background-color: none;
+  text-shadow: 2px 2px 5px #02010a;
+  width: 75%;
+  height: 30px;
+  /*border: 1px solid black;*/
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+#columna2, #columna3, #columna4
+{
+  background-color: none;
+  width: 6%;
+  height: 30px;
+  /*border: 1px solid black;*/
+  text-decoration-color: white;
+  padding-bottom: 3%;
+}
+
+#columna1, #columna2, #columna3, #columna4
+{
+  display: inline-block;
+}
+
+h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8em;
+}
+
+a[href$="html"]{color: white;}
+
+a[href="Index.html"]{text-decoration: none;}
+
+figcaption a[href="Paisajes.html"] {
+  color: black;
+}
+
+figcaption a[href="Retratos.html"] {
+  color: black;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4em;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a[href="Index.html"]{text-decoration: none;}
+
+.Img_center {
+  background: #82c3a6;
+}
+.Img_center img {
+  display: block;
+  padding: 3% 5%;
+  -webkit-filter: drop-shadow(2px 2px 5px #02010a);
+  filter: drop-shadow(2px 2px 5px #02010a);
+
+}
+
+.Img_Second{
+  width: 100%;
+  height: 100%;
+  background: #d5c75f;
+  /*position:relative;*/
+}
+
+.Paisajes, .Retratos {
+  display: inline-block;
+  width: 33%;
+  padding: 6%;
+  margin: 0% 2%;
+  -webkit-filter: drop-shadow(2px 2px 5px #02010a);
+  filter: drop-shadow(2px 2px 5px #02010a);
+  /*position:relative;*/
+}
+
+.Pie{
+  -moz-border-radius:0px 0px 10px 10px;
+  -webkit-border-radius:0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Foot1, .Foot2, .Foot3, .Foot4{
+  display: inline-block;
+  width: 23%;
+  text-align: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  }
+
+
+
+@media screen and (min-width: 900px) {
+  #contenido{
+    width: 100%;
+    height: 100%;
+  }
+  #columna1{
+    width: 75%;
+    float: inherit;
+  }
+  #columna2, #columna3, #columna4 {
+    width: 6%;
+    float: inherit;
+}
+}
+
+@media (max-width: 900px) {
+
+  #contenido{
+    width: 100%;
+    height: 100%;
+  }
+  #columna1{
+    width: 100%;
+    text-align: center;
+    float: inherit;
+  }
+  #columna2, #columna3, #columna4 {
+    float: inherit;
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin-left: 2%;
+    margin-top: 15px;
+    width: 30%;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  .Img_center, .Img_second {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Paisajes {
+    width: 80%;
+    padding: 10%;
+    margin: 0%;
+  }
+
+  .Retratos{
+    width: 80%;
+    padding: 10%;
+    margin: 0%;
+  }
+
+ .Pie{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Foot1, .Foot2, .Foot3, .Foot4 {
+    width: 100%;
+    text-align: left;
+    padding: 1%;
+    margin-left: 5%;
+  }
+
+/*.Foot1 {
+  width: 100%;
+  border: 1px solid green;
+}*/
+
+
+}
