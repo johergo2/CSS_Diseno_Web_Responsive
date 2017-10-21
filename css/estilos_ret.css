@@ -1,0 +1,207 @@
+#columna1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8em;
+}
+
+#columna2, #columna3, #columna4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.0em;
+}
+
+#contenido {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#columna1 {
+  background-color: none;
+  text-shadow: 2px 2px 5px #02010a;
+  width: 75%;
+  height: 30px;
+  /*border: 1px solid black;*/
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+#columna2, #columna3, #columna4
+{
+  background-color: none;
+  width: 6%;
+  height: 30px;
+  /*border: 1px solid black;*/
+  text-decoration-color: white;
+  padding-bottom: 3%;
+}
+
+#columna1, #columna2, #columna3, #columna4
+{
+  display: inline-block;
+}
+
+h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8em;
+}
+
+a[href$="html"]{color: white;}
+
+a[href="Retratos.html"]{text-decoration: none;}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+#Pimagenes {
+  width: 900px;
+  height: 100%;
+
+  background: #d5c75f;
+  /*border: 1px solid blue;*/
+}
+
+#Fotos1a, #Fotos1b, #Fotos1c
+{
+  display: inline-block;
+  width: 25%;
+  padding: 2% 4%;
+}
+
+#Fotos1a img{
+  display: block;
+  width: 100%;
+  padding: 7% 2%;
+}
+
+#Fotos1b img{
+  display: block;
+  width: 100%;
+  padding: 7% 2%;
+}
+
+#Fotos1c img{
+  display: block;
+  width: 100%;
+  padding: 7% 2%;
+}
+
+#Imagen1{
+  filter: blur(10px) drop-shadow(2px 2px 5px #02010a);
+}
+
+#Imagen2, #Imagen3, #Imagen6{
+  filter:grayscale(100%)  drop-shadow(2px 2px 5px #02010a);
+  -webkit-filter:grayscale(100%) drop-shadow(2px 2px 5px #02010a);
+}
+
+#Imagen5{
+  -webkit-filter:sepia(90%) drop-shadow(2px 2px 5px #02010a);
+  filter:sepia(90%) drop-shadow(2px 2px 5px #02010a);
+
+}
+
+.Pie{
+  -moz-border-radius:0px 0px 10px 10px;
+  -webkit-border-radius:0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Foot1, .Foot2, .Foot3, .Foot4{
+  display: inline-block;
+  width: 23%;
+  text-align: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.4em;
+}
+
+
+@media screen and (min-width: 900px) {
+  #contenido{
+    width: 100%;
+    height: 100%;
+  }
+  #columna1{
+    width: 75%;
+    float: inherit;
+  }
+  #columna2, #columna3, #columna4 {
+    width: 6%;
+    float: inherit;
+  }
+  #Pimagenes{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+
+#contenido{
+  width: 100%;
+  height: 100%;
+}
+#columna1{
+  width: 100%;
+  text-align: center;
+  float: inherit;
+}
+#columna2, #columna3, #columna4 {
+  float: inherit;
+  text-align: center;
+  /*border: 1px solid black;*/
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+#Pimagenes{
+  width: 100%;
+  height: 100%;
+}
+
+#Fotos1a {
+  width: 80%;
+  text-align: center;
+  padding: 8%;
+  margin: 0%;
+}
+
+#Fotos1b{
+  width: 80%;
+  text-align: center;
+  padding: 8%;
+  margin: 0%;
+}
+
+#Fotos1c{
+  width: 80%;
+  text-align: center;
+  padding: 8%;
+  margin: 0%;
+}
+
+.Pie{
+  width: 100%;
+  height: 100%;
+}
+
+.Foot1, .Foot2, .Foot3, .Foot4 {
+  width: 100%;
+  text-align: left;
+  padding: 1%;
+  margin-left: 5%;
+}
+
+section {
+  text-align: center;
+}
+}
